@@ -1,0 +1,222 @@
+.bgImage {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=60 100w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=200&q=60 200w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60 300w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60 400w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60 500w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60 600w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60 700w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60 800w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60 900w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60 1000w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=60 1100w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60 1200w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1296&q=60 1296w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60 1400w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60 1600w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1800&q=60 1800w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=60 2000w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2200&q=60 2200w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2400&q=60 2400w, https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2592&q=60 2592w");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlayLoad {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+    overflow: hidden;
+}
+
+.overlayLoad h1 {
+    font-family: 'Calligraffitti';
+    font-size: 8vh;
+    height: inherit;
+    z-index: 999;
+    text-align: center;
+    position: relative;
+    margin-top: 40vh;
+}
+
+.modal h1,
+.modal h2, 
+.modal h3, 
+.modal h4, 
+.modal h5, 
+.modal h6,
+.modal p {
+    font-family: 'Fira Sans';
+    margin: 2.5vh 0;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+    padding: 1em;
+    color: #000;
+}
+
+.modal-content {
+    /*background-color: rgba(10, 9, 9, 0.5);*/
+    box-shadow: none;
+    border-radius: 2px;
+    background-clip: initial;
+}
+
+.modal.in .modal-dialog {
+    transform: translate(0,5vh);
+}
+
+ul {
+    list-style-type:none;
+}
+
+.navCont {
+    /*transform: translate(0px, 40vh);*/
+    padding: 3em;
+    /* border-top: 1.5px solid #fff;
+    border-bottom: 1.5px solid #fff; */
+    padding: 40vh 0 7vh 0; 
+    border-bottom: 2px solid transparent;
+}
+
+.navCont ul li {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Amaranth';
+    font-size: 3vh;
+    text-align: center;
+    display: none;
+    padding-top: 1vh;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+
+.navCont ul li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3.5px;
+    background: #FFF;
+    transition: width .5s;
+    top: 10px;
+    position: relative;
+}
+
+.navCont ul li:hover::after {
+    width: 100%;
+}
+
+.modal h1 {
+    border-bottom: 3px solid #000;
+    width: fit-content;
+    padding-bottom: 5px;
+    margin: 1.5vh auto;
+}
+
+.footer {
+    margin-top: 10vh;
+}
+
+.footer ul.social {
+    /*position: fixed;*/
+    bottom: 2vh;
+    float: right;
+}
+
+.footer ul.address {
+    /*position: fixed;*/
+    bottom: 2vh;
+    float: left;
+}
+
+iframe {
+    width: -webkit-fill-available;
+}
+
+.footer ul.address {
+    font-size: 2.2vh;
+    color: #FFF; 
+    font-family: 'Amaranth';
+}
+
+.footer i {
+    font-size: 2.2vh;
+    color: #FFF;
+    padding: 0.6em;
+    transition: 0.5s;
+    position: relative;
+}
+
+.footer i:hover {
+    transform: translate(0px, -5px);
+}
+
+.footer i:hover,
+.modal .fa-close:hover,
+.navCont ul li:hover {
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.navCont ul li.navHover {
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+}
+
+.modal .fa-close {
+    color: #000;
+    font-size: 2vh;
+    float: right;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.SoloLearn {
+    text-align: center;
+}
+
+.SoloLearn .fa,
+.contactIcon .fa {
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    padding: 0.4em;
+    transition: 0.5s;
+}
+
+.SoloLearn .fa:hover,
+.contactIcon .fa:hover {
+    background: #585252;
+    transition: 0.5s;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 997px) {
+    ul li {
+        margin-bottom: 5vh;
+    }
+
+    ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    /*.bgImage {
+        height: 100%;
+    }*/
+
+    .footer ul.social {
+        position: relative;
+        bottom: 2vh;
+        float: left;
+    }
+    
+    .footer ul.address {
+        position: relative;
+        bottom: 2vh;
+        padding-bottom: 4vh;
+    }
+
+    .navCont  {
+        margin-bottom: 5vh;
+        padding: 11vh 5vh 5vh 0;
+    }
+
+
+    .overlayLoad {
+        display: none;
+    }
+
+    .navCont ul li {
+        display: block;
+    }
+
+    .contactIcon {
+        text-align: center;
+    }
+}
